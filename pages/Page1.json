@@ -8,7 +8,7 @@
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1296,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
@@ -24,10 +24,36 @@
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "children": []
+          "children": [
+            {
+              "isMirrored": true,
+              "widgetName": "Camera1",
+              "rightColumn": 45,
+              "isCanvas": false,
+              "displayName": "Camera",
+              "iconSVG": "/static/media/icon.79c0d6de.svg",
+              "widgetId": "yo17t1qfyv",
+              "topRow": 27,
+              "bottomRow": 60,
+              "parentRowSpace": 10,
+              "isVisible": true,
+              "type": "CAMERA_WIDGET",
+              "version": 1,
+              "hideCard": false,
+              "parentId": "0",
+              "mode": "CAMERA",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "parentColumnSpace": 20.0625,
+              "leftColumn": 20,
+              "isDisabled": false,
+              "key": "i5200bnsx8"
+            }
+          ]
         },
         "layoutOnLoadActions": [],
         "widgetNames": [
+          "Camera1",
           "MainContainer"
         ],
         "validOnPageLoadActions": true,
